@@ -53,13 +53,13 @@
 		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> 
-		&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of Twain’s more popular novels, having seen many adaptations for the stage, screen, and elsewhere. When Tom Clancy, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
-		&lt;p&gt;As usual, Twain delivers both humor and social commentary in abundance. Although aimed at children, &lt;i&gt;Pauper&lt;/i&gt; deals with themes and provides moral and social criticism which appeals to readers of all ages.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of Twain’s more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Clancy, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
+			&lt;p&gt;As usual, Twain delivers both humor and social commentary in abundance. Although aimed at children, &lt;i&gt;Pauper&lt;/i&gt; provides moral and social criticism and deals with themes which appeal to readers of all ages.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1837</dc:source>
-		<dc:source>https://www.archive.org/details/princeandpauper04twaigoog</dc:source>
+		<dc:source>https://archive.org/details/princeandpauper04twaigoog</dc:source>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper</meta>
@@ -69,6 +69,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mark_Twain</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021164</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Samuel Scott</dc:contributor>
 		<meta property="file-as" refines="#artist">Scott, Samuel</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Samuel_Scott_(painter)</meta>
