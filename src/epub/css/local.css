@@ -24,19 +24,8 @@ span[epub|type~="subtitle"]{
 	display: none;
 }
 
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
-[epub|type~="z3998:song"] + p,
-[epub|type~="z3998:verse"] + p{
+[epub|type~="z3998:song"] + p{
 	text-indent: 0;
-}
-
-p span.i1{
-	text-indent: -1em;
-	padding-left: 2em;
 }
 
 section[epub|type~="dedication"] p{
