@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Prince and the Pauper</dc:title>
 		<meta property="file-as" refines="#title">Prince and the Pauper, The</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
@@ -38,24 +38,31 @@
 		<dc:subject id="subject-7">Edward VI, King of England, 1537-1553 -- Fiction</dc:subject>
 		<dc:subject id="subject-8">Poor children -- Fiction</dc:subject>
 		<dc:subject id="subject-9">Lookalikes -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/1837</meta>
-		<meta property="meta-auth" refines="#subject-9">https://www.gutenberg.org/ebooks/1837</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008106611</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008104231</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2007101907</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008111427</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008109129</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2010107463</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh2008107115</meta>
 		<meta property="se:subject">Childrens</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of Twain’s more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Clancy, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
 			&lt;p&gt;As usual, Twain delivers both humor and social commentary in abundance. Although aimed at children, &lt;i&gt;Pauper&lt;/i&gt; provides moral and social criticism of topics like the justice system and inequality, and deals with themes which appeal to readers of all ages.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1837</dc:source>
 		<dc:source>https://archive.org/details/princeandpauper04twaigoog</dc:source>
