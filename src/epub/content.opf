@@ -60,7 +60,7 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of Twain’s more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Canty, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain’s&lt;/a&gt; more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Canty, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
 			&lt;p&gt;As usual, Twain delivers both humor and social commentary in abundance. Although aimed at children, &lt;i&gt;Pauper&lt;/i&gt; provides moral and social criticism of topics like the justice system and inequality, and deals with themes which appeal to readers of all ages.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
