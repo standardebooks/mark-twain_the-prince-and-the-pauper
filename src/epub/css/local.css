@@ -19,10 +19,6 @@
 	display: none;
 }
 
-[epub|type~="z3998:song"] + p{
-	text-indent: 0;
-}
-
 section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 	margin-top: 3em;
