@@ -30,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Prince and the Pauper</dc:title>
 		<meta property="file-as" refines="#title">Prince and the Pauper, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Tale for Young People of All Ages</dc:title>
+		<meta property="file-as" refines="#subtitle">Tale for Young People of All Ages, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Prince and the Pauper: A Tale for Young People of All Ages</dc:title>
+		<meta property="file-as" refines="#fulltitle">Prince and the Pauper, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
 		<dc:subject id="subject-2">London (England) -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Impostors and imposture -- Fiction</dc:subject>
