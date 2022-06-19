@@ -62,7 +62,7 @@
 		<meta property="term" refines="#subject-8">sh2010107463</meta>
 		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">sh2008107115</meta>
-		<meta property="se:subject">Childrens</meta>
+		<meta property="se:subject">Children’s</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
