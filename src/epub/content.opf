@@ -73,7 +73,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/1837</dc:source>
 		<dc:source>https://archive.org/details/princeandpauper04twaigoog</dc:source>
 		<meta property="se:word-count">68059</meta>
-		<meta property="se:reading-ease.flesch">66.27</meta>
+		<meta property="se:reading-ease.flesch">66.47</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-prince-and-the-pauper</meta>
 		<dc:creator id="author">Mark Twain</dc:creator>
