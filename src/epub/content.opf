@@ -84,7 +84,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aft</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<dc:contributor id="artist">Samuel Scott</dc:contributor>
 		<meta property="file-as" refines="#artist">Scott, Samuel</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Samuel_Scott_(painter)</meta>
