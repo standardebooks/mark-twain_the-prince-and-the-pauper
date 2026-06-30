@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mark-twain/the-prince-and-the-pauper</dc:identifier>
 		<dc:date>2018-08-08T17:49:58Z</dc:date>
 		<meta property="dcterms:modified">2018-08-08T17:49:58Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -63,8 +64,8 @@
 		<meta property="term" refines="#subject-8">sh2010107463</meta>
 		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">sh2008107115</meta>
-		<meta property="se:subject">Children’s</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Children’s</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain’s&lt;/a&gt; more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Canty, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
@@ -73,14 +74,16 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1837</dc:source>
 		<dc:source>https://archive.org/details/princeandpauper04twaigoog</dc:source>
-		<meta property="se:word-count">67538</meta>
-		<meta property="se:reading-ease.flesch">66.47</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/mark-twain_the-prince-and-the-pauper</meta>
+		<meta property="schema:wordCount">67538</meta>
+		<meta property="schema:educationalLevel">66.47</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Prince_and_the_Pauper" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/mark-twain_the-prince-and-the-pauper" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Mark Twain</dc:creator>
 		<meta property="file-as" refines="#author">Twain, Mark</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mark_Twain</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021164</meta>
+		<link href="https://en.wikipedia.org/wiki/Mark_Twain" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021164.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
@@ -88,8 +91,8 @@
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Samuel Scott</dc:contributor>
 		<meta property="file-as" refines="#artist">Scott, Samuel</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Samuel_Scott_(painter)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr92043230</meta>
+		<link href="https://en.wikipedia.org/wiki/Samuel_Scott_(painter)" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr92043230.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
@@ -103,7 +106,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
