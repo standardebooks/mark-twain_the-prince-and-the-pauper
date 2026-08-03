@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/mark-twain/the-prince-and-the-pauper</dc:identifier>
 		<dc:date>2018-08-08T17:49:58Z</dc:date>
@@ -66,11 +66,11 @@
 		<meta property="term" refines="#subject-9">sh2008107115</meta>
 		<meta property="schema:genre">Children’s</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">The Prince of England and a pauper find their identities switched.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The Prince of England and a pauper find their identities switched.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Prince and the Pauper&lt;/i&gt; remains one of &lt;a href="https://standardebooks.org/ebooks/mark-twain"&gt;Twain’s&lt;/a&gt; more popular novels, having been adapted many times for the stage, screen, and elsewhere. When Tom Canty, a young pauper in London, meets Prince Edward, the two switch clothes and assume the other’s identity. Tom then learns the life of royalty, while the true prince discovers the troubles of commoners.&lt;/p&gt;
 			&lt;p&gt;As usual, Twain delivers both humor and social commentary in abundance. Although aimed at children, &lt;i&gt;Pauper&lt;/i&gt; provides moral and social criticism of topics like the justice system and inequality, and deals with themes which appeal to readers of all ages.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1837</dc:source>
 		<dc:source>https://archive.org/details/princeandpauper04twaigoog</dc:source>
