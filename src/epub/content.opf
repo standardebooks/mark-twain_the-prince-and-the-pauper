@@ -38,14 +38,14 @@
 		<meta property="file-as" refines="#fulltitle">Prince and the Pauper, The</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
-		<dc:subject id="subject-2">London (England) -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Impostors and imposture -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Boys -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Social classes -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Princes -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Edward VI, King of England, 1537-1553 -- Fiction</dc:subject>
-		<dc:subject id="subject-8">Poor children -- Fiction</dc:subject>
-		<dc:subject id="subject-9">Lookalikes -- Fiction</dc:subject>
+		<dc:subject id="subject-2">London (England)--Fiction</dc:subject>
+		<dc:subject id="subject-3">Impostors and imposture--Fiction</dc:subject>
+		<dc:subject id="subject-4">Boys--Fiction</dc:subject>
+		<dc:subject id="subject-5">Social classes--Fiction</dc:subject>
+		<dc:subject id="subject-6">Princes--Fiction</dc:subject>
+		<dc:subject id="subject-7">Edward VI, King of England, 1537-1553--Fiction</dc:subject>
+		<dc:subject id="subject-8">Poor children--Fiction</dc:subject>
+		<dc:subject id="subject-9">Lookalikes--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85061165</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
